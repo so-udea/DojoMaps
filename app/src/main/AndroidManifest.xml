@@ -15,11 +15,8 @@
         android:theme="@style/Theme.DojoMaps">
 
         <meta-data
-
             android:name="com.google.android.geo.API_KEY"
-            android:value="api_key"
-
-            />
+            android:value="@string/api_key" />
 
         <activity android:name=".MainActivity">
             <intent-filter>
